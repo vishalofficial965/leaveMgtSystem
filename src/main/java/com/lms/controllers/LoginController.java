@@ -43,11 +43,7 @@ public class LoginController {
 	return mav;
     }
 
-    /**
-     * Opens the registration page to register a new user.
-     * 
-     * @return ModelAndView
-     */
+   
     @RequestMapping(value = "/registration", method = RequestMethod.GET)
     public ModelAndView registration(ModelAndView mav) {
 
